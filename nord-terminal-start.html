@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>name@home > newtab</title>
+
+  <style>
+    html {
+      align-items: center;
+      background-color: #2e3440;
+      color: #c5c8c6;
+      display: flex;
+      font: 22px/1 "Inconsolata", monospace;
+      height: 100%;
+      justify-content: center;
+    }
+
+    body {
+      background-color: #2e3440;
+      border-radius: 2px;
+      box-shadow: 1px 1px 6px #2e3440;
+      color: #c5c8c6;
+      display: flex;
+      flex-direction: column;
+      min-height: 30ch;
+      min-width: 50vw;
+      padding: 2em;
+    }
+
+    p {
+      margin: 0;
+    }
+
+    p span {
+      color: #b48ead;
+    }
+
+    a {
+      color: inherit;
+      text-decoration: none;
+    }
+
+    a:focus,
+    a:hover {
+      font-weight: bold;
+    }
+
+    ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    nav {
+      column-gap: 2em;
+      display: grid;
+      grid-template-columns: auto auto auto auto;
+      padding: 1em 0;
+    }
+
+    ul:nth-child(1n) li:first-child {
+      color: #a54242;
+    }
+
+    ul:nth-child(2n) li:first-child {
+      color: #de935f;
+    }
+    
+    ul:nth-child(3n) li:first-child {
+      color: #f0c674;
+    }
+    
+    ul:nth-child(4n) li:first-child {
+      color: #8c9440;
+    }
+
+    ul:nth-child(5n) li:first-child {
+      color: #85678f;
+    }
+
+    li:first-child {
+      font-weight: bold;
+    }
+
+    li:last-child {
+      margin: 0 0 1em;
+    }
+
+    p #cursor {
+      background-color: #b48ead;
+      animation: blink 2s infinite;
+    }
+
+    @keyframes blink {
+      0% { opacity: 0; }
+      49% { opacity: 0; }
+      50% { opacity: 1; }
+    }
+  </style>
+</head>
+<body>
+  <p><span>Crystalz@home > </span>newtab</p>
+
+  <nav>
+    <ul>
+      <li>general</li>
+      <li><a href="https://reddit.com/nordtheme">reddit</a></li>
+      <li><a href="https://www.twitter.com/turtspam">twitter</a></li>
+      <li><a href="https://namemc.com/">namemc</a></li>
+    </ul>
+
+    <ul>
+      <li>entertainment</li>
+      <li><a href="https://www.youtube.com">youtube</a></li>
+      <li><a href="https://www.twitch.com/">twitch</a></li>
+      <li><a href="https://www.spotify.com/">music</a></li>
+    </ul>
+
+    <ul>
+      <li>home</li>
+      <li><a href="https://www.gmail.com/">gmail</a></li>
+      <li><a href="https://drive.google.com/drive/my-drive">drive</a></li>
+      <li><a href="https://www.web.whatsapp.com/">whatsapp</a></li>
+    </ul>
+
+    <ul>
+      <li>misc.</li>
+      <li><a href="https://www.deviantart.com/nivvu">deviant-art</a></li>
+      <li><a href="https://wiki.archlinux.org/">Arch-Wiki</a></li>
+      <li><a href="https://github.com/">github</a></li>
+    </ul>
+
+    <ul>
+      <li>Links 5-7</li>
+      <li><a href="https://us02web.zoom.us/j/6199591362?pwd=OE9Fb2ZuOG51QktNemw4K2xEaGVNZz09">Studio-5</a></li>
+      <li><a href="https://us02web.zoom.us/j/2628808197?pwd=WS9GY0I1TStSU01KSFRMRlVjMW53Zz09">Studio-6</a></li>
+      <li><a href="https://us02web.zoom.us/j/4757278017?pwd=ck9ObTUwSTgrQUJFUDVOeGpkSURNUT09">Studio-7</a></li>
+    </ul>
+
+    <ul>
+      <li>Links 8-10</li>
+      <li><a href="https://us02web.zoom.us/j/5781384552?pwd=RXBtTzBBUG1Qa1hTSHlnYUlLNm9IZz09">Studio-8</a></li>
+      <li><a href="https://us02web.zoom.us/j/4549850807?pwd=VWpXbmltbGJ6VHlvZ3pJS2U3b1JwUT09">Studio-9</a></li>
+      <li><a href="https://us02web.zoom.us/j/8572869590?pwd=WmJlcTdBNXd2OTAyVXUyai81aWNuZz09">Studio-10</a></li>
+    </ul>
+
+    <ul>
+      <li>Links 11-13</li>
+      <li><a href="https://us02web.zoom.us/j/6336385914?pwd=MjVOdjVDTWNQekU0eEtvMHRYV091Zz09">Studio-11</a></li>
+      <li><a href="https://us02web.zoom.us/j/8284754723?pwd=QUxJUmI4VFo5QVlDZ0FVVy9RMGZ3Zz09">Studio-12</a></li>
+      <li><a href="https://us02web.zoom.us/j/5304582715?pwd=bjFQdy93MmFsWkMrWGQwL0dHL0Z2Zz09">Studio-13</a></li>
+    </ul>
+  </nav>
+  <p><span>Crystalz@home > </span> <span id="cursor">_</span></p>
+</body>
+</html>
